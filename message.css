@@ -1,0 +1,90 @@
+body{padding: 0;margin: 0;}
+
+.list{
+    border: solid;
+    float: left;
+    width: 30%;
+    height: 99.6vh;
+}
+
+.chat{
+    border: solid;
+    float: right;
+    width: 69.62%;
+    height: 99.6vh;
+}
+.profile{
+    border: solid;
+    height: 10vh;
+}
+
+img{
+    height: 10vh;
+    float: left;
+}
+.name{
+    height: 10vh;
+    float: left;
+    margin-top: 3vh;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.message{
+    border: solid;
+    height: 90vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 10px;
+    
+}
+
+.message::-webkit-scrollbar {
+    display: none;
+}
+
+#text1{
+    width: 227px;
+}
+#text2{
+    width: 80%;
+    height: 80%;
+    font-size: 35px;
+}
+#send2{
+    height: 90%;
+    position: relative;
+    width: 100px;
+    top:-4px;
+    left: 20px;
+    border-radius: 200px;
+}
+
+#p1{
+text-align: left;
+border: none;
+background-color: rgb(190, 188, 188);
+width: 170px;
+word-break: break-all;
+margin: 2% 0% 0% 1.5%;
+padding: 6px 6px 6px 8px;
+border-radius: 2px;
+box-shadow: 0px 0px 10px 0px rgb(190, 188, 188);
+
+
+}
+
+#p2{
+text-align:right ;
+border: none;
+width: 170px;
+margin: 2% 0% 0% 80%;
+background-color: rgb(190, 188, 188);
+padding: 6px 8px 6px 0px;
+border-radius: 2px;
+box-shadow: 0px 0px 10px 0px rgb(190, 188, 188);
+}
+
+
+
+
