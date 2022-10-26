@@ -1,21 +1,37 @@
+
 body{padding: 0;margin: 0;}
+
+.fd{
+border: solid;
+border-color: cyan;
+height: 100 vh;
+width: 99.99%;
+
+}
 
 .list{
     border: solid;
     float: left;
-    width: 30%;
+    width: 25%;
     height: 99.6vh;
+    background-color: aquamarine;
+    position: absolute;
 }
 
 .chat{
+    position: relative;
     border: solid;
     float: right;
-    width: 69.62%;
+    width: 75%;
     height: 99.6vh;
+    background-color: lawngreen;
 }
 .profile{
     border: solid;
     height: 10vh;
+    margin-top: -6%;
+    width: auto;
+    background-color: grey;
 }
 
 img{
@@ -23,16 +39,15 @@ img{
     float: left;
 }
 .name{
-    height: 10vh;
+    height: auto;
     float: left;
-    margin-top: 3vh;
-    font-size: 30px;
-    margin-left: 40px;
+    font-size: 120%;
+    margin: 5% 5% 5% 10%;
 }
 
 .message{
     border: solid;
-    height: 90vh;
+    height: 85%;
     overflow-y: scroll;
     overflow-x: hidden;
     padding-bottom: 10px;
@@ -59,7 +74,19 @@ img{
     left: 20px;
     border-radius: 200px;
 }
-
+.sm{
+    position: relative;
+    width: 80vw;
+    border: solid;
+    height: 7vh;
+    background-color: blue;
+}
+.smm{border: solid;
+    
+    border-color: black  ;
+    position: relative;
+    height: 30%;
+}
 #p1{
 text-align: left;
 border: none;
@@ -79,7 +106,7 @@ text-align:right ;
 border: none;
 width: 170px;
 margin: 2% 0% 0% 80%;
-background-color: rgb(190, 188, 188);
+background-color: rgb(175, 173, 173);
 padding: 6px 8px 6px 0px;
 border-radius: 2px;
 box-shadow: 0px 0px 10px 0px rgb(190, 188, 188);
